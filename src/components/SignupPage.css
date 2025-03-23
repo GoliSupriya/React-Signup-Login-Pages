@@ -1,0 +1,55 @@
+.container {
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+  }
+  
+  .agency-question {
+    margin-top: 12px;
+  }
+  
+  .signup-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover {
+    background-color: darkviolet;
+  }
+  
+  .login-text {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .login-link {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

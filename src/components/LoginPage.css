@@ -1,0 +1,109 @@
+/* Container: Centered and Responsive */
+.container {
+  max-width: 375px; /* Standard mobile width */
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Headings */
+h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Subtext */
+.subtext {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+  width: 100%;
+  padding: 14px; /* Larger padding for mobile */
+  font-size: 16px; /* Increase font size for readability */
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+input:focus {
+  outline: none;
+  border-color: #6d28d9;
+  box-shadow: 0 0 5px rgba(109, 40, 217, 0.3);
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 14px;
+  background-color: #6d28d9;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button Hover & Active Effects */
+.login-btn:hover {
+  background-color: #5b21b6;
+}
+
+.login-btn:active {
+  transform: scale(0.98);
+}
+
+/* Signup Text */
+.signup-text {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+}
+
+/* Signup Link */
+.signup-link {
+  color: #6d28d9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 480px) {
+  .container {
+      padding: 16px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  input {
+      padding: 12px;
+      font-size: 14px;
+  }
+
+  .login-btn {
+      padding: 12px;
+      font-size: 14px;
+  }
+}

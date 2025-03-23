@@ -1,0 +1,81 @@
+/* Centered mobile-like container */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  /* Ensures proper centering */
+    background-color: #f3f4f6; /* Light gray */
+    padding: 16px;
+}
+
+/* Mobile Card */
+.mobile-card {
+    max-width: 375px; /* Standard mobile width */
+    width: 90%; /* Responsive for smaller screens */
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title Styling */
+.welcome-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #111827;
+    margin-bottom: 8px;
+}
+
+/* Description */
+.welcome-text {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+/* Add click effect */
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Primary Button */
+.btn-primary {
+    background-color: #6d28d9;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.btn-primary:hover {
+    background-color: #5b21b6;
+}
+
+.btn-primary:focus-visible {
+    outline: 3px solid #a78bfa; /* Focus ring for accessibility */
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background-color: #e9d5ff;
+    color: #6d28d9;
+}
+
+.btn-secondary:hover {
+    background-color: #d8b4fe;
+}
+
+.btn-secondary:focus-visible {
+    outline: 3px solid #6d28d9;
+}
